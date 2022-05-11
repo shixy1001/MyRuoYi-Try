@@ -1,0 +1,23 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RuoYi系统接口测试套件">
+
+   <test name="test1">
+
+        <classes>
+            <!--   <class name="com.sxy.testcase.LoginTestCase"/>
+         <!-      <methods>
+                     <include name ="JsonTest"/>
+                 </methods>-->
+
+
+              <class name="com.sxy.testcase.NoticeAddTestcase"/>
+            <!--  <class name="com.sxy.testcase.NoticeListTestCase"/>-->
+
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.sxy.utils.ExtentTestNGIReporterListener"/>
+        <!--   <listener class-name="com.sxy.utils.AssertionListener"/>-->
+    </listeners>
+  </suite>

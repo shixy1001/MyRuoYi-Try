@@ -1,0 +1,20 @@
+<?xml version ="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RuoYi系统接口测试套件">
+   <test name="DeptManagement-SXY">
+        <classes>
+              <class name="com.sxy.testcase.DepetManagerTestCase">
+                <methods>
+                      <include name ="logT"/>
+                    <include name ="deptAddTest"/>
+                    <include name ="queryDept"/>
+                    <include name ="delDeptT"/>
+                </methods>
+              </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.sxy.utils.ExtentTestNGIReporterListener"/>
+        <!--   <listener class-name="com.sxy.utils.AssertionListener"/>-->
+    </listeners>
+  </suite>

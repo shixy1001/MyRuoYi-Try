@@ -1,0 +1,29 @@
+{
+    "total": "2",
+    "rows": [
+        {
+            "createBy": "admin",
+            "createTime": "2018-03-16 11:33:00",
+            "updateTime": "2018-03-16 11:33:00",
+            "updateBy": "ry",
+            "remark": "管理员",
+            "noticeId": 1,
+            "noticeTitle": "温馨提醒：2018-07-01 若依新版本发布啦",
+            "noticeType": "2",
+            "noticeContent": "新版本内容",
+             "status": "0",
+            "params": {}
+        },
+        {
+             "createBy": "admin",
+             "createTime": "2020-12-14 10:15:33",
+             "updateBy": "",
+             "noticeId": 339,
+             "noticeType": "1",
+             "noticeTitle": "公告20201214101532",
+             "noticeContent": "通知放假时间为1-3号",
+             "status": "0",
+             "params": {}
+        }
+    ]
+}
