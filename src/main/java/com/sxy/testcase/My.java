@@ -16,7 +16,7 @@ public class My {
 //        JSONObject jsonsort = SortUtil.srotJsonObjByKey(json,"rows","noticeId");
 //        System.out.println(jsonsort.toJSONString());
 
-        Map<String,Object> map = new LinkedHashMap<>();
+        Map<String,Object> map = new LinkedHashMap<String,Object>();
         map.put("id",1);
         map.put("name","张三");
         JSONObject obj = new JSONObject(map);
