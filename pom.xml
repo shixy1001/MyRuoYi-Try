@@ -43,7 +43,7 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.5</version>
         </dependency>
-        <dependency><!--httpclient通过POST来上传文件,而不是通过流的形式,并在服务端进行解析，通过httpmime.jar来操作-->
+        <dependency><!--httpclient通过POST来上传文件,而不是通过流的形式,并在服务端进行解析，通过jar来操作-->
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpmime</artifactId>
             <version> 4.5.2</version>
@@ -58,12 +58,12 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
-        <dependency><!--基于Office Open XML标准（OOXML）处理文件格式-->
+        <dependency><!--基于Office Open XML标准处理文件格式-->
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>3.10-FINAL</version>
         </dependency>
-        <dependency><!--基于Office Open XML标准（OOXML）处理文件格式-->
+        <dependency><!--基于Office Open XML标准处理文件格式-->
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
             <version>3.10-FINAL</version>
